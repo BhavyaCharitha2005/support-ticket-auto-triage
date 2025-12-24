@@ -1,14 +1,16 @@
 # Customer Support Ticket Auto-Triage System
 
 ## 📋 Project Overview
-An intelligent machine learning system that automatically categorizes customer support tickets into 5 predefined categories with 100% accuracy.
+An intelligent machine learning system that automatically categorizes customer support tickets into 5 predefined categories with 100% accuracy, reducing manual effort and improving response efficiency through natural language processing.
 
 ## 🎯 Key Features
 - **Automatic Classification**: Classifies tickets into 5 categories
-- **REST API**: Easy integration with existing systems
-- **High Accuracy**: 100% accuracy on test data
-- **Fast Predictions**: < 0.03ms per prediction
-- **Production Ready**: Complete pipeline from data to deployment
+- **REST API**                : Easy integration with existing systems
+- **High Accuracy**           : 100% accuracy on test data
+- **Fast Predictions**        : < 0.03ms per prediction
+- **Production Ready**        : Complete pipeline from data to deployment
+- **Smart Routing**           : Confidence-based ticket routing decisions
+- **Real-time Analytics**     : Performance monitoring and insights
 
 ## 📊 Performance Metrics
 | Metric | Score | Weight | Contribution |
@@ -27,18 +29,20 @@ An intelligent machine learning system that automatically categorizes customer s
 3. Feature Extraction
 4. Model Training
 5. API Deployment
-6. Real-time Prediction
+6. Smart Routing
+7. Real-time Prediction
 
 ## 📁 File Structure
 
 - support_triage.py (Main ML training pipeline)
 - app.py (Flask REST API)
+- smart_classifier.py (Enhanced classification with routing)
 - ticket_classifier_model.pkl (Trained ML model)
 - tfidf_vectorizer.pkl (Text vectorizer)
 - requirements.txt (Python dependencies)
 - README.md (This documentation)
-- test_system.py (Test script)
-
+- test_system.py ( Basic test script)
+- test_smart_system.py (Advanced test script)
 
 ## QUICK START GUIDE
 
@@ -48,10 +52,13 @@ An intelligent machine learning system that automatically categorizes customer s
 2. TEST THE SYSTEM:
    Run: python test_system.py
 
-3. RUN API SERVER:
+3. TEST SMART SYSTEM:
+   Run: python test_smart_system.py
+
+4. RUN API SERVER:
    Run: python app.py
 
-4. USE THE API:
+5. USE THE API:
    Send POST request to: http://localhost:5000/classify
    With JSON data: {"subject": "Login issue", "description": "Cannot login"}
 
@@ -59,32 +66,33 @@ An intelligent machine learning system that automatically categorizes customer s
 ## MODEL DETAILS
 
 ### Categories Classified:
-1. Bug - Software defects and errors
-2. Billing - Payment and subscription issues  
-3. Feature - New feature requests
+1. Bug       - Software defects and errors
+2. Billing   - Payment and subscription issues  
+3. Feature   - New feature requests
 4. Technical - Technical problems
-5. Account - User account issues
+5. Account   - User account issues
 
 ### Machine Learning Model:
-- Algorithm: Multinomial Naive Bayes
-- Text Processing: TF-IDF Vectorization
-- Features: 1000 most important words
-- Training Data: 100 tickets (20 per category)
-- Test Data: 20 tickets (4 per category)
+- Algorithm       : Multinomial Naive Bayes
+- Text Processing : TF-IDF Vectorization
+- Features        : 1000 most important words
+- Training Data   : 100 tickets (20 per category)
+- Test Data       : 20 tickets (4 per category)
+- Smart Features  : Confidence-based routing, auto-resolution logic
 
 ### Performance:
-- Accuracy: 100%
+- Accuracy   : 100%
 - Final Score: 100/100
-- Latency: 0.028ms per prediction
+- Latency    : 0.028ms per prediction
 
 
 ## EVALUATION METHODOLOGY
 
 ### Weighted Scoring System (as per PDF):
-- Accuracy: 40% weight
+- Accuracy          : 40% weight
 - Precision & Recall: 30% weight (15% each)
-- F1-Score: 20% weight  
-- Latency: 10% weight
+- F1-Score          : 20% weight  
+- Latency           : 10% weight
 
 ### Final Score Calculation:
 Final Score = (Accuracy × 0.40) + 
@@ -93,11 +101,11 @@ Final Score = (Accuracy × 0.40) +
               ((1 - Normalized Latency) × 0.10)
 
 ### Our Results:
-- Accuracy: 1.00 × 0.40 = 0.40 (40 points)
+- Accuracy        : 1.00 × 0.40 = 0.40 (40 points)
 - Precision+Recall: 1.00 × 0.30 = 0.30 (30 points)  
-- F1-Score: 1.00 × 0.20 = 0.20 (20 points)
-- Latency: 0.9997 × 0.10 = 0.10 (10 points)
-- TOTAL: 100/100 points
+- F1-Score        : 1.00 × 0.20 = 0.20 (20 points)
+- Latency         : 0.9997 × 0.10 = 0.10 (10 points)
+- TOTAL           : 100/100 points
 
 
 TESTING
@@ -109,6 +117,11 @@ Sample Test Cases:
 4. "Bug report" + "App crashes" -> Bug
 5. "Technical issue" + "Server timeout" -> Technical
 
+Smart System Tests:
+1.High confidence tickets: Auto-resolve with template responses
+2.Medium confidence      : Route to appropriate departments
+3.Low confidence         : Flag for human review
+
 REQUIREMENTS
 
 Python Version: 3.7 or higher
@@ -119,7 +132,7 @@ Dependencies (see requirements.txt):
 - scikit-learn 1.3.0
 - nltk 3.8.1
 
-PROJECT STATUS
+
 
 ALL REQUIREMENTS MET:
 1. Python 3.0+ with required libraries: YES
