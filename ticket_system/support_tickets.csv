@@ -1,0 +1,101 @@
+ticket_id,subject,description,category,priority,timestamp
+1001,Export failure,Urgent: PDF export feature not working properly,Bug,High,2024-01-24 13:00:00
+1002,File upload error,Cannot upload files larger than 10MB,Bug,High,2024-01-05 10:00:00
+1003,Security bug,Password field showing plain text,Bug,High,2024-01-19 15:00:00
+1004,Login error,Urgent: Getting error message when trying to login,Bug,High,2024-01-03 12:00:00
+1005,File upload error,Cannot upload files larger than 10MB,Bug,Medium,2024-01-20 09:00:00
+1006,Security bug,Important: Password field showing plain text. Need quick resolution.,Bug,High,2024-01-23 17:00:00
+1007,Payment gateway bug,Urgent: Payment fails with error code 500,Bug,High,2024-01-15 13:00:00
+1008,Software crash,Application crashes when clicking save button,Bug,High,2024-01-23 15:00:00
+1009,Calendar bug,Wrong dates showing in calendar widget,Bug,Critical,2024-01-05 12:00:00
+1010,Calendar bug,Urgent: Wrong dates showing in calendar widget,Bug,High,2024-01-03 15:00:00
+1011,Export failure,Important: PDF export feature not working properly. Need quick resolution.,Bug,Critical,2024-01-28 14:00:00
+1012,Memory leak,Application memory usage keeps increasing,Bug,Critical,2024-01-26 09:00:00
+1013,Report generation,Urgent: Reports show incorrect totals,Bug,Medium,2024-01-04 15:00:00
+1014,Database issue,"Cannot connect to database, getting timeout",Bug,Medium,2024-01-10 14:00:00
+1015,Browser compatibility,Not working on Safari browser,Bug,High,2024-01-23 10:00:00
+1016,Login error,Urgent: Getting error message when trying to login,Bug,Medium,2024-01-08 13:00:00
+1017,Database issue,"Cannot connect to database, getting timeout",Bug,High,2024-01-28 10:00:00
+1018,Mobile app crash,App crashes on Android when opening settings,Bug,Critical,2024-01-15 14:00:00
+1019,Performance issue,Urgent: System running very slow during peak hours,Bug,Critical,2024-01-12 12:00:00
+1020,Notification bug,Not receiving email notifications,Bug,Medium,2024-01-30 10:00:00
+1021,Bank transfer,Urgent: Bank transfer not reflecting,Billing,Medium,2024-01-18 12:00:00
+1022,Tax calculation,Tax amount seems incorrect on bill,Billing,Critical,2024-01-13 13:00:00
+1023,Payment history,Cannot see payment history,Billing,Medium,2024-01-22 14:00:00
+1024,Payment declined,Urgent: Credit card payment was declined,Billing,Medium,2024-01-27 09:00:00
+1025,Discount not applied,Promo code not working,Billing,Critical,2024-01-09 10:00:00
+1026,Late fee,Important: Charged late fee but paid on time. Need quick resolution.,Billing,High,2024-01-07 16:00:00
+1027,Plan upgrade,Urgent: Charged wrong amount for upgrade,Billing,Critical,2024-01-05 13:00:00
+1028,Subscription renewal,Auto-renewal charged incorrectly,Billing,Medium,2024-01-24 17:00:00
+1029,Payment history,Cannot see payment history,Billing,High,2024-01-24 15:00:00
+1030,Auto-pay issue,Urgent: Auto-payment failed,Billing,Critical,2024-01-12 12:00:00
+1031,Subscription renewal,Important: Auto-renewal charged incorrectly. Need quick resolution.,Billing,Critical,2024-01-03 09:00:00
+1032,Double charge,Charged twice for same service,Billing,Medium,2024-01-21 11:00:00
+1033,Plan downgrade,Urgent: Refund for downgrade not processed,Billing,Low,2024-01-13 15:00:00
+1034,Bank transfer,Bank transfer not reflecting,Billing,Critical,2024-01-17 13:00:00
+1035,Payment history,Cannot see payment history,Billing,Low,2024-01-22 10:00:00
+1036,Payment history,Urgent: Cannot see payment history,Billing,High,2024-01-25 14:00:00
+1037,Double charge,Charged twice for same service,Billing,High,2024-01-14 11:00:00
+1038,Trial period,Charged before trial ended,Billing,Low,2024-01-31 13:00:00
+1039,Invoice duplicate,Urgent: Received duplicate invoices,Billing,Medium,2024-01-17 10:00:00
+1040,Billing cycle,Want to change billing cycle,Billing,Medium,2024-01-05 14:00:00
+1041,Bulk actions,Urgent: Want bulk upload feature,Feature,Low,2024-01-20 14:00:00
+1042,Voice commands,Voice control feature request,Feature,Low,2024-01-04 14:00:00
+1043,Dashboard widgets,Customizable dashboard widgets,Feature,Medium,2024-01-02 12:00:00
+1044,Keyboard shortcuts,Urgent: More keyboard shortcuts,Feature,Low,2024-01-03 16:00:00
+1045,Mobile app,Need mobile application version,Feature,Medium,2024-01-05 16:00:00
+1046,Collaboration tools,Important: Team collaboration features. Need quick resolution.,Feature,Medium,2024-01-09 17:00:00
+1047,Search filters,Urgent: Advanced search filters,Feature,Critical,2024-01-31 12:00:00
+1048,Collaboration tools,Team collaboration features,Feature,Medium,2024-01-23 13:00:00
+1049,Real-time chat,Add live chat support,Feature,High,2024-01-15 17:00:00
+1050,Import from Excel,Urgent: Import data from Excel files,Feature,Low,2024-01-08 12:00:00
+1051,Mobile app,Important: Need mobile application version. Need quick resolution.,Feature,High,2024-01-01 17:00:00
+1052,Calendar integration,Integrate with Google Calendar,Feature,Medium,2024-01-01 10:00:00
+1053,Dark mode,Urgent: Request for dark mode theme,Feature,Medium,2024-01-03 09:00:00
+1054,Email templates,Custom email templates needed,Feature,Low,2024-01-17 12:00:00
+1055,Language support,Add Spanish language option,Feature,Critical,2024-01-07 17:00:00
+1056,Custom reports,Urgent: Need custom report builder,Feature,Critical,2024-01-08 16:00:00
+1057,Analytics dashboard,Advanced analytics features,Feature,Medium,2024-01-04 10:00:00
+1058,Analytics dashboard,Advanced analytics features,Feature,High,2024-01-14 15:00:00
+1059,Import from Excel,Urgent: Import data from Excel files,Feature,Low,2024-01-22 10:00:00
+1060,Dark mode,Request for dark mode theme,Feature,Critical,2024-01-24 14:00:00
+1061,Database slow,Urgent: Database queries taking too long,Technical,Medium,2024-01-07 12:00:00
+1062,Server migration,Issues after server migration,Technical,Critical,2024-01-05 15:00:00
+1063,File upload slow,File uploads taking forever,Technical,High,2024-01-15 12:00:00
+1064,Connection timeout,Urgent: Getting connection timeout errors,Technical,Critical,2024-01-26 17:00:00
+1065,Database slow,Database queries taking too long,Technical,Low,2024-01-21 17:00:00
+1066,Server down,"Important: Website not loading, server error. Need quick resolution.",Technical,Low,2024-01-30 12:00:00
+1067,File upload slow,Urgent: File uploads taking forever,Technical,Critical,2024-01-16 16:00:00
+1068,API rate limit,Hitting API rate limits frequently,Technical,Critical,2024-01-29 09:00:00
+1069,File upload slow,File uploads taking forever,Technical,Critical,2024-01-01 15:00:00
+1070,CDN issue,Urgent: Static assets not loading properly,Technical,Critical,2024-01-10 15:00:00
+1071,Server migration,Important: Issues after server migration. Need quick resolution.,Technical,Critical,2024-01-05 12:00:00
+1072,Cache not clearing,Cache not updating with changes,Technical,Medium,2024-01-31 09:00:00
+1073,Security scan,Urgent: Security vulnerability found,Technical,Low,2024-01-24 14:00:00
+1074,Slow performance,Application very slow to respond,Technical,Low,2024-01-19 16:00:00
+1075,SSL renewal,SSL certificate renewal issue,Technical,Medium,2024-01-02 17:00:00
+1076,Connection timeout,Urgent: Getting connection timeout errors,Technical,Medium,2024-01-03 10:00:00
+1077,SSL certificate,SSL certificate warning showing,Technical,Critical,2024-01-04 12:00:00
+1078,Security scan,Security vulnerability found,Technical,Low,2024-01-20 10:00:00
+1079,Backup failed,Urgent: Automated backup failed,Technical,High,2024-01-30 13:00:00
+1080,API rate limit,Hitting API rate limits frequently,Technical,High,2024-01-08 13:00:00
+1081,Session timeout,Urgent: Getting logged out frequently,Account,High,2024-01-22 13:00:00
+1082,Verification issue,Email verification not working,Account,Medium,2024-01-30 10:00:00
+1083,Password reset,Cannot reset my password,Account,Medium,2024-01-20 10:00:00
+1084,Profile update,Urgent: Cannot update profile information,Account,Low,2024-01-07 17:00:00
+1085,Email change,Need to change account email,Account,High,2024-01-30 14:00:00
+1086,Profile update,Important: Cannot update profile information. Need quick resolution.,Account,High,2024-01-12 13:00:00
+1087,Account deletion,Urgent: Want to delete my account,Account,Medium,2024-01-27 17:00:00
+1088,Username change,Want to change username,Account,Low,2024-01-26 17:00:00
+1089,Password reset,Cannot reset my password,Account,Low,2024-01-27 17:00:00
+1090,Username change,Urgent: Want to change username,Account,Low,2024-01-04 11:00:00
+1091,Email change,Important: Need to change account email. Need quick resolution.,Account,High,2024-01-29 10:00:00
+1092,Notification settings,Cannot change notification settings,Account,High,2024-01-09 13:00:00
+1093,Time zone issue,Urgent: Time zone not updating correctly,Account,High,2024-01-23 14:00:00
+1094,Permission issue,Don't have correct permissions,Account,Low,2024-01-21 13:00:00
+1095,Privacy settings,Privacy settings not saving,Account,Medium,2024-01-09 09:00:00
+1096,Profile update,Urgent: Cannot update profile information,Account,Low,2024-01-14 13:00:00
+1097,Login issue,"Account locked, cannot login",Account,High,2024-01-11 11:00:00
+1098,Email change,Need to change account email,Account,High,2024-01-24 16:00:00
+1099,Notification settings,Urgent: Cannot change notification settings,Account,Low,2024-01-14 17:00:00
+1100,Password reset,Cannot reset my password,Account,High,2024-01-03 11:00:00
