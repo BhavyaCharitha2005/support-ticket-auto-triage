@@ -1,33 +1,33 @@
 # CUSTOMER SUPPORT TICKET AUTO-TRIAGE
-Developer: Bojja Naga Bhavya Charitha
+### Developer: Bojja Naga Bhavya Charitha
 
 An intelligent machine learning system that automatically classifies and routes customer support tickets into predefined categories, reducing manual effort and improving response efficiency through natural language processing and automated triage.
 
 ## FEATURES
-Automatic Classification into 5 predefined categories
-REST API for integration with existing systems
-Real-time processing with instant predictions
-Production-ready deployment pipeline
-Complete evaluation framework
+- Automatic Classification into 5 predefined categories
+- REST API for integration with existing systems
+- Real-time processing with instant predictions
+- Production-ready deployment pipeline
+- Complete evaluation framework
 
 ## SETUP INSTRUCTIONS
 
 ### Prerequisites
-Python 3.8+
-Flask, pandas, numpy, scikit-learn, nltk
+- Python 3.8+
+- Flask, pandas, numpy, scikit-learn, nltk
 
 ### Technical Specifications
-Framework: Flask
-ML Library: scikit-learn
-Text Processing: nltk
-Data Handling: pandas, numpy
-API Format: REST JSON
+- Framework: Flask
+- ML Library: scikit-learn
+- Text Processing: nltk
+- Data Handling: pandas, numpy
+- API Format: REST JSON
 
 ### Installation Steps
 Setup Server:
-Navigate to project directory
-Run: pip install -r requirements.txt
-Run: python app.py
+- Navigate to project directory
+- Run: pip install -r requirements.txt
+- Run: python app.py
 
 The API server will run on http://127.0.0.1:5000
 
@@ -61,20 +61,20 @@ Final Score = (Accuracy × 0.40) + ((Precision + Recall)/2 × 0.30) + (F1-Score 
 Total = 0.99997 × 100 = 100.00/100
 
 ### Algorithm
-Text cleaning and preprocessing
-TF-IDF vectorization
-Naive Bayes classification
-Confidence score calculation
+- Text cleaning and preprocessing
+- TF-IDF vectorization
+- Naive Bayes classification
+- Confidence score calculation
 
 ## BONUS CHALLENGES ATTEMPTED
-Complete API prototype implementation
-Production deployment on local machine
-Comprehensive documentation
-Weighted scoring system as per requirements
+- Complete API prototype implementation
+- Production deployment on local machine
+- Comprehensive documentation
+- Weighted scoring system as per requirements
 
 ## FUTURE IMPROVEMENTS
-Multi-language classification support
-Customer sentiment analysis
-Priority level prediction
-Web dashboard for monitoring
-Transformer-based model implementation
+- Multi-language classification support
+- Customer sentiment analysis
+- Priority level prediction
+- Web dashboard for monitoring
+- Transformer-based model implementation
