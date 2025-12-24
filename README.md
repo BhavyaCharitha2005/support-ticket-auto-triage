@@ -1,16 +1,13 @@
 # CUSTOMER SUPPORT TICKET AUTO-TRIAGE
-### Developer: Bojja Naga Bhavya Charitha
+**Developer** : Bojja Naga Bhavya Charitha
 
-An intelligent machine learning system that automatically classifies and routes customer support tickets into predefined categories, reducing manual effort and improving response efficiency through natural language processing and automated triage.
+An intelligent machine learning system that automatically classifies and routes customer support tickets into 5 predefined categories with 100% accuracy, reducing manual effort and improving response efficiency through natural language processing and automated triage with confidence-based smart routing.
 
 ## FEATURES
 - Automatic Classification into 5 predefined categories
 - REST API for integration with existing systems
 - Real-time processing with instant predictions
-- Production-ready deployment pipeline
-- Complete evaluation framework
 - Confidence-based smart routing decisions
-- Performance analytics and monitoring
 
 ## SETUP INSTRUCTIONS
 
@@ -20,12 +17,12 @@ An intelligent machine learning system that automatically classifies and routes 
 
 ### Technical Specifications
 - Framework       : Flask
-- ML Library      : scikit-learn
-- Text Processing : nltk
+- ML Library      : scikit-learn(v1.6.1)
+- Text Processing : nltk + TF-IDF Vectorization
 - Data Handling   : pandas, numpy
 - API Format      : REST JSON
 - Model           : Multinomial Naive Bayes
-- Vectorizer      : TF-IDF
+- Vectorizer      : TF-IDF(1000 features)
 
 ### Installation Steps
 Setup Server:
@@ -65,7 +62,7 @@ Final Score = (Accuracy × 0.40) + ((Precision + Recall)/2 × 0.30) + (F1-Score 
 - F1-Score         = 1.00 × 0.20 = 0.20 (20.00 points)-
 - Latency          = 0.9997 × 0.10 = 0.09997 (10.00 points)
 
-Total = 0.99997 × 100 = 100.00/100
+Total = 0.99997 × 100 = 100.00/100(approx)
 
 ### Algorithm
 - Text cleaning and preprocessing
@@ -74,7 +71,6 @@ Total = 0.99997 × 100 = 100.00/100
 
 ## CHALLENGES ATTEMPTED
 - Complete API prototype implementation
-- Production deployment on local machine
 - Comprehensive documentation
 - Weighted scoring system as per requirement
 - Smart routing with confidence-based decisions
