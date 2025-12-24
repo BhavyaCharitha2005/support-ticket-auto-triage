@@ -46,10 +46,10 @@ Account  : User authentication, profile management, security concerns, and acces
 Final Score = (Accuracy × 0.40) + ((Precision + Recall)/2 × 0.30) + (F1-Score × 0.20) + ((1 - Normalized Latency) × 0.10)
 
 ### Performance
-Accuracy = 1.00 × 0.40 = 0.40 (40.00 points)
-Precision+Recall = 1.00 × 0.30 = 0.30 (30.00 points)
-F1-Score = 1.00 × 0.20 = 0.20 (20.00 points)
-Latency = 0.9997 × 0.10 = 0.09997 (10.00 points)
+Accuracy = 1.00 × 0.40 = 0.40 (40.00 points).
+Precision+Recall = 1.00 × 0.30 = 0.30 (30.00 points).
+F1-Score = 1.00 × 0.20 = 0.20 (20.00 points).
+Latency = 0.9997 × 0.10 = 0.09997 (10.00 points).
 
 Total = 0.99997 × 100 = 100.00/100
 
