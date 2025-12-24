@@ -9,6 +9,8 @@ An intelligent machine learning system that automatically classifies and routes 
 - Real-time processing with instant predictions
 - Production-ready deployment pipeline
 - Complete evaluation framework
+- Confidence-based smart routing decisions
+- Performance analytics and monitoring
 
 ## SETUP INSTRUCTIONS
 
@@ -17,11 +19,13 @@ An intelligent machine learning system that automatically classifies and routes 
 - Flask, pandas, numpy, scikit-learn, nltk
 
 ### Technical Specifications
-- Framework: Flask
-- ML Library: scikit-learn
-- Text Processing: nltk
-- Data Handling: pandas, numpy
-- API Format: REST JSON
+- Framework       : Flask
+- ML Library      : scikit-learn
+- Text Processing : nltk
+- Data Handling   : pandas, numpy
+- API Format      : REST JSON
+- Model           : Multinomial Naive Bayes
+- Vectorizer      : TF-IDF
 
 ### Installation Steps
 Setup Server:
@@ -34,13 +38,16 @@ The API server will run on http://127.0.0.1:5000
 Test System:
 Run: python test_system.py
 
+Test Smart System:
+Run: python test_smart_system.py
+
 ## ALGORITHM EXPLANATION
 The system classifies tickets into five distinct categories based on content analysis:
-Bug      : Software defects, errors, and application failures requiring technical fixes.
-Billing  : Payment processing, subscription management, invoicing, and refund inquiries
+Bug      : Software defects, errors, and application failures requiring                 technical fixes.
+Billing  : Payment processing, subscription management, invoicing, and                  refund inquiries
 Feature  : Enhancement requests and new functionality proposals
-Technical: Infrastructure issues, server problems, and system integration failures
-Account  : User authentication, profile management, security concerns, and access problems
+Technical: Infrastructure issues, server problems, and system integration               failures
+Account  : User authentication, profile management, security concerns, and              access problems
 
 ### Evaluation Formula
 Final Score = (Accuracy × 0.40) + ((Precision + Recall)/2 × 0.30) + (F1-Score × 0.20) + ((1 - Normalized Latency) × 0.10)
@@ -62,19 +69,18 @@ Total = 0.99997 × 100 = 100.00/100
 
 ### Algorithm
 - Text cleaning and preprocessing
-- TF-IDF vectorization
-- Naive Bayes classification
 - Confidence score calculation
+- Smart routing decisions based on confidence levels
 
-## BONUS CHALLENGES ATTEMPTED
+## CHALLENGES ATTEMPTED
 - Complete API prototype implementation
 - Production deployment on local machine
 - Comprehensive documentation
-- Weighted scoring system as per requirements
-
+- Weighted scoring system as per requirement
+- Smart routing with confidence-based decisions
+- Performance analytics and monitoring
+  
 ## FUTURE IMPROVEMENTS
-- Multi-language classification support
-- Customer sentiment analysis
-- Priority level prediction
-- Web dashboard for monitoring
-- Transformer-based model implementation
+- Real-time learning from agent feedback to improve accuracy
+- Priority level prediction based on urgency keywords
+- Integration with email systems for automatic ticket creation
