@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-24 23:22:13",
+  "average_latency_ms": 0.6568599492311478,
+  "min_latency_ms": 0.34389994107186794,
+  "max_latency_ms": 1.702900044620037,
+  "std_latency_ms": 0.5259014759721264,
+  "max_allowed_latency_ms": 100.0,
+  "normalized_score": 0.9934314005076885,
+  "calculated_points": 9.93,
+  "test_cases_used": 5
+}
